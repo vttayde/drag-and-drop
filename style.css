@@ -1,0 +1,129 @@
+body{
+    background: rgb(247, 247, 248);
+}
+
+.imgBox{
+    background-image: url('photo.jpg' );
+    position: relative;
+    align-items: center;
+    top: 5px;
+    left: 5px;
+    height: 145px;
+    width: 145px;
+    /* z-index: 1; */
+    cursor: pointer;
+    border: 3px black solid;
+    border-radius: 80px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.whiteBox{
+    display: inline-block;
+    height: 30vh;
+    width: 70vw;
+    margin: 10px;
+    background-color: white;
+    border: 3px rgb(22, 21, 21) solid;
+    
+}
+button{
+    
+    border: 0.3vw solid black;
+    border-radius: 05vw;
+}
+.hold{
+    border: solid red 4px;
+}
+
+.dashed{
+    background: rgb(214, 206, 206);
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+/* homepage css */
+.box1{
+    position: relative;
+    border: 1vw black solid;
+    width: 80vw;
+    height: 38vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    ;
+    justify-content: center;
+    
+    margin: auto;
+}
+.div1{
+    border: 1vw black solid;
+    width: 80vw;
+    height: 38vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+    margin: auto;
+}
+.div0{
+    position: relative;
+    margin: auto;
+}
+.text1{
+    font-size: 5vw;
+    font-weight: 2000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2{
+    margin: auto;
+    font-size: 4vw;
+    font-style: italic;    
+   
+}
+img{
+    width: 6vw;
+    /* height: 10vh; */
+    position: relative;
+    top: 2vw;
+   
+}
+
+.div2 {
+    display: inline-flex;
+    border: 0.7vw solid rgba(0, 0, 0, 0.50);
+    position: relative;
+    /* display: inline-block; */
+    width: 15vw;
+    height: 15vw;
+    border-radius:100%;
+}
+.div1 .div2 .div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    border: 0.7vw rgba(0, 0, 0, 0.50) solid;
+    width: 13vw;
+    height: 13vw;
+    border-radius:100%;
+}
+.div1 .div2 .div3 .div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    border: 0.5vw black solid;
+    width: 2vw;
+    height: 2vw;
+    border-radius:100%;
+}
